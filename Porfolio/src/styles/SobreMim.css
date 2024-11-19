@@ -1,0 +1,20 @@
+.SobreMim {
+    background: linear-gradient(to bottom right, black, gray);
+    text-align: center;
+    max-width: 250px;
+    height: 100vh;
+    border-radius: 50px;
+    padding-top: 20px;
+}
+
+
+.SobreMim img{
+    border: 2px solid black;
+    border-radius: 50%;
+    max-width: 150px;
+    height: 150px;
+}
+
+.SobreMim h2{
+    color: white;
+}
