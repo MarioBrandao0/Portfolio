@@ -4,17 +4,50 @@
     max-width: 250px;
     height: 100vh;
     border-radius: 50px;
+    border: 2px solid rgb(119, 119, 119);
     padding-top: 20px;
 }
 
 
-.SobreMim img{
+.SobreMim img {
+    display: block;          
+    margin: 0 auto;
     border: 2px solid black;
     border-radius: 50%;
     max-width: 150px;
     height: 150px;
 }
 
+
 .SobreMim h2{
     color: white;
+}
+
+.SobreMim .Caixotes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+
+}
+
+.SobreMim .Desc1{
+    color: #C0C0C0;
+    margin-bottom: 10px;
+    max-width: 90%;
+    border-radius: 10px;
+    background: linear-gradient(to right, black, rgb(151, 151, 151));
+}
+
+.SobreMim .Desc2{
+    color: white;
+    margin-bottom: 10px;
+    max-width: 90%;
+    border-radius: 10px;
+    background: linear-gradient(to right, black, rgb(151, 151, 151));
+}
+.SobreMim .Desc2 p {
+    padding: 10px;
 }
