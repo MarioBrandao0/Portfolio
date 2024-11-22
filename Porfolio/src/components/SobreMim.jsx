@@ -1,6 +1,16 @@
 import '../styles/SobreMim.css'
+import { useRef } from 'react'
 
 function SobreMim() {
+    const dialog = useRef(null)
+
+    function chamar() {
+            dialog.current.showModal()
+    }
+
+    function fechar(){
+        dialog.current.close()
+    }
 
     return (
         <div className="SobreMim">
@@ -14,7 +24,14 @@ function SobreMim() {
                 <div className='Desc2'>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, fugiat!</p>
                 </div>
+                <button id='Botão' onClick={chamar}>Clique aqui</button>    
             </div>
+            
+
+            <dialog className='dialog' ref={dialog}>
+                    <p>oi</p>
+                    <button onClick={fechar}>Close</button>
+            </dialog>
         </div>
     )
 }
