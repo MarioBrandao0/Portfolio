@@ -1,0 +1,27 @@
+.Contatos{
+    margin: auto;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    grid-column: 3/5;
+    grid-row: 2;
+    width: 300px;
+    height: 75px;
+    text-align: center;
+    
+}
+
+
+.Contatos .fotos{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.Contatos .fotos img{
+    margin: 0;
+    width: 40px;
+    object-fit: contain;
+}

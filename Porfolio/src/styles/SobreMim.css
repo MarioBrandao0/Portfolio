@@ -61,4 +61,18 @@
     width: 500px;
     height: 500px;
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: mover 1s ease;
+}
+
+@keyframes mover {
+    0%{
+        transform: translate(-10%) translateX(-100%);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translate(-10%) translateX(1);
+        opacity: 1;
+    }
 }
