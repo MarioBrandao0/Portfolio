@@ -1,6 +1,6 @@
 .Contatos{
     margin: auto;
-    background-color: white;
+    background: linear-gradient(to right, silver, black );
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     grid-column: 3/5;

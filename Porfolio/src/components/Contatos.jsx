@@ -1,4 +1,9 @@
 import '../styles/Contatos.css'
+
+import GithubIMG from '../assets/Github.png'
+import GmailIMG from '../assets/Gmail.png'
+import LinkedinIMG from '../assets/Linkedin.png'
+
 function Contatos() {
     return (
         //Desenvolver isso aqui
@@ -7,15 +12,14 @@ function Contatos() {
 
         <div className='fotos'>
             <a href="https://github.com/MarioBrandao0" target="_blank">
-                <img src="/Github.png" alt="Github"/>
+                <img src={GithubIMG} alt="Github"/>
             </a>
             
-            <a href="" target="_blank">
-                <img src="/Gmail.png" alt="Gmail"/>
+            <a href="mailto:mariobrandao030@gmail.com">
+                <img src={GmailIMG} alt="Gmail"/>
             </a>
-
-            <a href="" target="_blank">
-                <img src="/Linkedin.png" alt="Linkedin"/>
+            <a href="https://www.linkedin.com/in/mario-brand%C3%A3o-195864242/" target="_blank">
+                <img src={LinkedinIMG} alt="Linkedin"/>
             </a>
         </div>
     </div>

@@ -8,6 +8,7 @@ function App() {
 
   return (
     <div className='body'>
+      <div className="overlay"></div>
       <SobreMim />
       <Contatos />
     </div>
