@@ -6,7 +6,6 @@ import LinkedinIMG from '../assets/Linkedin.png'
 
 function Contatos() {
     return (
-        //Desenvolver isso aqui
     <div className='Contatos'>
         <h2>Contatos</h2>
 

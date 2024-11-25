@@ -19,7 +19,13 @@ function SobreMim() {
             <div className="perfil">
                 <img src={FotoPerfil} alt="" />
                 <h2>Mário Brandão</h2>
+                <div className="info">
+                    <h3 className='idade'>Idade: 19</h3>
+                    <h3>Telefone: (81) 99268-4898</h3>
+                 </div>
             </div>
+
+
             <div className="Caixotes">
                 <div className='Desc1'>
                     <p>Gosto de desing</p>
@@ -32,9 +38,17 @@ function SobreMim() {
             
 
             <dialog className='dialog' ref={dialog}>
-                <img src={FotoPerfil} alt="" />
+                <div className="perfil2">
+                    <img src={FotoPerfil} alt="" />
+                    
+                </div>
                 <div className="conteudo">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores facilis, repellendus laborum vero cumque saepe in tempore veritatis eaque maxime fugiat perferendis aut consequuntur quibusdam atque porro, ab, non alias natus nihil. Quibusdam quae nemo veniam tenetur repudiandae ex corrupti reiciendis. Enim officia distinctio magnam voluptatibus fuga, suscipit animi vel ullam aspernatur mollitia? Assumenda, voluptas similique. Laborum, architecto nostrum? Illo sint cupiditate autem rerum asperiores neque esse veritatis odit saepe ut! Iure iusto sapiente, itaque molestiae accusantium sequi pariatur cumque magni. Facilis facere consequatur pariatur tenetur modi tempore, optio error nostrum ipsum quibusdam, fugiat ratione totam cupiditate quaerat veniam temporibus?</p>
+                    <p>
+                        José é uma pessoa curiosa, autodidata e apaixonada pelo que faz. 
+                        Ele adora resolver problemas complexos e tem uma abordagem criativa quando se trata de encontrar soluções técnicas. 
+                        No tempo livre, além de programar, ele gosta de jogar games, especialmente os de estratégia e RPGs. 
+                        José também gosta de compartilhar seu conhecimento e participa de comunidades online, ajudando iniciantes a se aprofundarem em programação.
+                    </p>
                 </div>
                 <button onClick={fechar}>Close</button>
             </dialog>
