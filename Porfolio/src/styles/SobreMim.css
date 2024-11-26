@@ -109,13 +109,13 @@
 
 @keyframes mover {
     0%{
-        transform: translateX(-100%);
+        transform: translateY(100%);
         opacity: 0;
     }
     
 
     100%{
-        transform: translateX(1);
+        transform: translateY(1);
         opacity: 1;
     }
 }

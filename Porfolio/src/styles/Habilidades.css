@@ -45,3 +45,9 @@
 .python:active{
     transform: scale(0.95);
 }
+
+.dialogHB {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
