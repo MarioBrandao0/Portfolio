@@ -1,6 +1,7 @@
 import '../styles/Habilidades.css'
 import { useRef } from 'react'
 import PythonIMG from '../assets/Python.png'
+import javascriptIMG from '../assets/JavaScript.png'
 
 
 function Habilidades() {
@@ -29,8 +30,8 @@ function Habilidades() {
 
             <dialog className='dialogHB' ref={dialog}>
                 <div className="Linguagens">
-                    <img src='' alt="" />
-                    
+                    <img src={PythonIMG} alt="" />
+                    <img src={javascriptIMG} className='javascript' alt="" />                    
                 </div>
                 <div className="Conhecimentos">
                     <p>
