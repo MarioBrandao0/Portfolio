@@ -30,7 +30,7 @@ function Habilidades() {
 
             <dialog className='dialogHB' ref={dialog}>
                 <div className="Linguagens">
-                    <img src={PythonIMG} alt="" />
+                    <img src={PythonIMG} alt="" className='python' />
                     <img src={javascriptIMG} className='javascript' alt="" />                    
                 </div>
                 <div className="Conhecimentos">

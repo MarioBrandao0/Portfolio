@@ -65,12 +65,18 @@
 }
 
 .dialogHB .Linguagens img {
+    object-fit: cover;
+}
+
+.python {
     width: 90px;
     height: 90px;
-    object-fit: cover;
-    & .javascript {
-        width: 50px;
-    }
+    border: none;
+}
+
+.javascript {
+    width: 90px;
+    height: 90px;
 }
 
 @keyframes mover {
